@@ -1482,10 +1482,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_alt"
+                                "key_code": "right_control"
                             },
                             "to": {
-                                "key_code": "left_command"
+                                "key_code": "fn"
                             }
                         },
                         {
@@ -1498,7 +1498,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_alt"
+                                "key_code": "left_alt"
                             },
                             "to": {
                                 "key_code": "right_command"
@@ -1506,10 +1506,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_control"
+                                "key_code": "right_alt"
                             },
                             "to": {
-                                "key_code": "fn"
+                                "key_code": "right_command"
                             }
                         }
                     ]
@@ -1557,10 +1557,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_alt"
+                                "key_code": "right_control"
                             },
                             "to": {
-                                "key_code": "left_command"
+                                "key_code": "fn"
                             }
                         },
                         {
@@ -1573,18 +1573,18 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_alt"
+                                "key_code": "left_alt"
                             },
                             "to": {
-                                "key_code": "right_command"
+                                "key_code": "left_command"
                             }
                         },
                         {
                             "from": {
-                                "key_code": "right_control"
+                                "key_code": "right_alt"
                             },
                             "to": {
-                                "key_code": "fn"
+                                "key_code": "right_command"
                             }
                         }
                     ]
