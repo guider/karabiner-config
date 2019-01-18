@@ -1482,10 +1482,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_control"
+                                "key_code": "left_alt"
                             },
                             "to": {
-                                "key_code": "fn"
+                                "key_code": "left_command"
                             }
                         },
                         {
@@ -1498,7 +1498,7 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_alt"
+                                "key_code": "right_alt"
                             },
                             "to": {
                                 "key_code": "right_command"
@@ -1506,10 +1506,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_alt"
+                                "key_code": "right_control"
                             },
                             "to": {
-                                "key_code": "right_command"
+                                "key_code": "fn"
                             }
                         }
                     ]
@@ -1557,10 +1557,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "right_control"
+                                "key_code": "left_alt"
                             },
                             "to": {
-                                "key_code": "fn"
+                                "key_code": "left_command"
                             }
                         },
                         {
@@ -1573,18 +1573,18 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_alt"
-                            },
-                            "to": {
-                                "key_code": "left_command"
-                            }
-                        },
-                        {
-                            "from": {
                                 "key_code": "right_alt"
                             },
                             "to": {
                                 "key_code": "right_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_control"
+                            },
+                            "to": {
+                                "key_code": "fn"
                             }
                         }
                     ]
@@ -1600,7 +1600,137 @@
                     },
                     "ignore": false,
                     "manipulate_caps_lock_led": true,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_alt"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 273,
+                        "vendor_id": 2131
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "application"
+                            },
+                            "to": {
+                                "key_code": "right_control"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_alt"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_alt"
+                            },
+                            "to": {
+                                "key_code": "right_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_control"
+                            },
+                            "to": {
+                                "key_code": "right_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_gui"
+                            },
+                            "to": {
+                                "key_code": "fn"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 3841,
+                        "vendor_id": 6421
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
                     "simple_modifications": []
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 514,
+                        "vendor_id": 1278
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "left_control"
+                            },
+                            "to": {
+                                "key_code": "caps_lock"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_alt"
+                            },
+                            "to": {
+                                "key_code": "right_control"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "escape"
+                            },
+                            "to": {
+                                "key_code": "non_us_pound"
+                            }
+                        }
+                    ]
                 }
             ],
             "fn_function_keys": [
