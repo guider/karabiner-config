@@ -1474,6 +1474,22 @@
                         },
                         {
                             "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
+                            }
+                        },
+                        {
+                            "from": {
                                 "key_code": "escape"
                             },
                             "to": {
@@ -1510,22 +1526,6 @@
                             },
                             "to": {
                                 "key_code": "fn"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "backslash"
-                            },
-                            "to": {
-                                "key_code": "delete_or_backspace"
-                            }
-                        },
-                        {
-                            "from": {
-                                "key_code": "delete_or_backspace"
-                            },
-                            "to": {
-                                "key_code": "backslash"
                             }
                         }
                     ]
@@ -1744,6 +1744,22 @@
                             },
                             "to": {
                                 "key_code": "right_control"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "international5"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "international4"
+                            },
+                            "to": {
+                                "key_code": "right_command"
                             }
                         }
                     ]
