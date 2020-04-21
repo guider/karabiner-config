@@ -15,6 +15,60 @@
                 },
                 "rules": [
                     {
+                        "description": "right Shift to F17",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "right_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "right_shift"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "f17"
+                                    }
+                                ],
+
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Shift to F17",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "left_shift",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "left_shift"
+                                    }
+                                ],
+                                "to_if_alone": [
+                                    {
+                                        "key_code": "f17"
+                                    }
+                                ],
+
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "CapsLock to Hyper/Escape",
                         "manipulators": [
                             {
