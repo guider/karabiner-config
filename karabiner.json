@@ -15,7 +15,7 @@
                 },
                 "rules": [
                     {
-                        "description": "right Shift to F17",
+                        "description": "Right Shift to F18",
                         "manipulators": [
                             {
                                 "from": {
@@ -33,16 +33,15 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f18"
                                     }
                                 ],
-
                                 "type": "basic"
                             }
                         ]
                     },
                     {
-                        "description": "Shift to F17",
+                        "description": "Left_Shift to F18",
                         "manipulators": [
                             {
                                 "from": {
@@ -60,10 +59,9 @@
                                 ],
                                 "to_if_alone": [
                                     {
-                                        "key_code": "f17"
+                                        "key_code": "f18"
                                     }
                                 ],
-
                                 "type": "basic"
                             }
                         ]
@@ -2215,6 +2213,52 @@
                             },
                             "to": {
                                 "key_code": "non_us_backslash"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_alt"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 591,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
                             }
                         },
                         {
