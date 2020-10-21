@@ -2278,6 +2278,174 @@
                             }
                         }
                     ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 0,
+                        "vendor_id": 13
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_alt"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 2311,
+                        "vendor_id": 7847
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_alt"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 17666,
+                        "vendor_id": 2652
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 61166,
+                        "vendor_id": 6421
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": false,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_alt"
+                            },
+                            "to": {
+                                "key_code": "left_command"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_gui"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        }
+                    ]
                 }
             ],
             "fn_function_keys": [
