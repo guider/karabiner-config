@@ -1482,21 +1482,17 @@
                         ]
                     },
                     {
-                        "description": "SpaceFN: Space+Backspace to Forward Delete",
+                        "description": "CapsLockFN: Space+Backspace to Forward Delete",
                         "manipulators": [
                             {
-                                "conditions": [
-                                    {
-                                        "name": "spacefn_mode",
-                                        "type": "variable_if",
-                                        "value": 1
-                                    }
-                                ],
                                 "from": {
                                     "key_code": "delete_or_backspace",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
+                                     "modifiers": {
+                                        "mandatory": [
+                                            "right_command",
+                                            "right_shift",
+                                            "right_control",
+                                            "right_option"
                                         ]
                                     }
                                 },
