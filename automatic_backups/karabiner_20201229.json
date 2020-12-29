@@ -865,10 +865,22 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_control"
+                                        "key_code": "right_control",
+                                        "set_variable": {
+                                            "name": "spacefn_mode",
+                                            "value": 1
+                                        }
                                     }
                                 ],
-                          "to_if_alone": [
+                                "to_after_key_up": [
+                                    {
+                                        "set_variable": {
+                                            "name": "spacefn_mode",
+                                            "value": 0
+                                        }
+                                    }
+                                ],
+                                "to_if_alone": [
                                     {
                                         "key_code": "spacebar"
                                     }
