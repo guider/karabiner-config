@@ -82,7 +82,6 @@
                                 "to": [
                                     {
                                         "key_code": "fn"
-
                                     }
                                 ],
                                 "to_if_alone": [
@@ -102,14 +101,13 @@
                                     "key_code": "h",
                                     "modifiers": {
                                         "mandatory": [
-                                          "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
                                 "to": [
                                     {
                                         "key_code": "left_arrow"
-
                                     }
                                 ],
                                 "type": "basic"
@@ -135,7 +133,7 @@
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -151,7 +149,7 @@
                                     "key_code": "l",
                                     "modifiers": {
                                         "mandatory": [
-                                          "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -186,7 +184,7 @@
                                     "key_code": "u",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -221,7 +219,7 @@
                                     "key_code": "i",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -244,7 +242,6 @@
                                 "to": [
                                     {
                                         "key_code": "end"
-
                                     }
                                 ],
                                 "type": "basic"
@@ -254,7 +251,7 @@
                                     "key_code": "o",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -289,7 +286,7 @@
                                     "key_code": "p",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -332,7 +329,7 @@
                                     "key_code": "n",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -370,7 +367,7 @@
                                     "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -386,7 +383,7 @@
                                     "key_code": "comma",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
@@ -402,7 +399,7 @@
                                     "key_code": "period",
                                     "modifiers": {
                                         "mandatory": [
-                                           "fn"
+                                            "fn"
                                         ]
                                     }
                                 },
