@@ -211,10 +211,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "home",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
+                                        "key_code": "home"
                                     }
                                 ],
                                 "type": "basic"
@@ -246,10 +243,8 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "end",
-                                        "modifiers": [
-                                            "left_shift"
-                                        ]
+                                        "key_code": "end"
+
                                     }
                                 ],
                                 "type": "basic"
