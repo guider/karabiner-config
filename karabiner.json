@@ -322,7 +322,7 @@
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "n",
+                                    "key_code": "m",
                                     "modifiers": {
                                         "mandatory": [
                                             "fn",
@@ -358,26 +358,7 @@
                                 ],
                                 "type": "basic"
                             },
-                            {
-                                "from": {
-                                    "key_code": "m",
-                                    "modifiers": {
-                                        "mandatory": [
-                                            "fn",
-                                            "right_option"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "delete_or_backspace",
-                                        "modifiers": [
-                                            "left_option"
-                                        ]
-                                    }
-                                ],
-                                "type": "basic"
-                            },
+                           
                             {
                                 "from": {
                                     "key_code": "comma",
