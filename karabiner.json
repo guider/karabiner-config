@@ -333,7 +333,6 @@
                                 "to": [
                                     {
                                         "key_code": "delete_or_backspace"
-
                                     }
                                 ],
                                 "type": "basic"
@@ -358,7 +357,6 @@
                                 ],
                                 "type": "basic"
                             },
-                           
                             {
                                 "from": {
                                     "key_code": "comma",
@@ -1883,7 +1881,15 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_alt"
+                                "key_code": "left_command"
+                            },
+                            "to": {
+                                "key_code": "left_option"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "left_option"
                             },
                             "to": {
                                 "key_code": "left_command"
@@ -1891,10 +1897,10 @@
                         },
                         {
                             "from": {
-                                "key_code": "left_gui"
+                                "key_code": "right_option"
                             },
                             "to": {
-                                "key_code": "left_option"
+                                "key_code": "right_command"
                             }
                         }
                     ]
@@ -1925,6 +1931,14 @@
                             },
                             "to": {
                                 "key_code": "backslash"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_option"
+                            },
+                            "to": {
+                                "key_code": "right_command"
                             }
                         }
                     ]
@@ -2055,6 +2069,36 @@
                             }
                         }
                     ]
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": [],
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 628,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "manipulate_caps_lock_led": true,
+                    "simple_modifications": [
+                        {
+                            "from": {
+                                "key_code": "backslash"
+                            },
+                            "to": {
+                                "key_code": "delete_or_backspace"
+                            }
+                        },
+                        {
+                            "from": {
+                                "key_code": "delete_or_backspace"
+                            },
+                            "to": {
+                                "key_code": "backslash"
+                            }
+                        }
+                    ]
                 }
             ],
             "fn_function_keys": [
@@ -2164,6 +2208,14 @@
                 {
                     "from": {
                         "key_code": "escape"
+                    },
+                    "to": {
+                        "key_code": "non_us_backslash"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "grave_accent_and_tilde"
                     },
                     "to": {
                         "key_code": "non_us_backslash"
